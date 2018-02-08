@@ -1,8 +1,8 @@
 # k5cents.github.io
 ## Contact
 * Messenger: [@k5cents](m.me/k5cents)
-* Mobile: ((802) 793-0986)[tel:+18027930986]
-* Email: [k5cents@gmail.com](mailto:k5cents@gmail.com]
+* Mobile: (802) 793-0986
+* Email: k5cents@gmail.com
 ## Profiles
 * Twitter: [@k5cents](twitter.com/k5cents)
 * Facebook: [/k5cents](facebook.com/k5cents)
