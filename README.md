@@ -17,4 +17,4 @@
 * Degree: [Political Science](http://www.american.edu/spa/gov/degrees/ba-ma-political-science.cfm)
 ## Bitcoin
 bitcoin:3DzmjgVaXeX14myPpFRDha2KC4wEw7UJtP
-![bitcoin:3DzmjgVaXeX14myPpFRDha2KC4wEw7UJtP](https://github.com/k5cents/k5cents.github.io/blob/master/btc_qr.svg/sanitize=true)
+![bitcoin:3DzmjgVaXeX14myPpFRDha2KC4wEw7UJtP](https://github.com/k5cents/k5cents.github.io/raw/master/btc_qr.svg/sanitize=true)
