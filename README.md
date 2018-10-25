@@ -16,14 +16,14 @@ Landing Page
 * Birthplace@ Morrisville, VT
 
 ## Profiles
-* twitter.com/k5cents
-* github.com/k5cents
-* instagram.com/k5cents
-* spotify.com/user/k5cents
-* xbox.com/gamertag=k5cents
-* snapchat.com/add/k5cents
-* www.linkedin.com/in/k5cents
-* reddit.com/user/k5cents
+* http://twitter.com/k5cents
+* http://github.com/k5cents
+* http://instagram.com/kj5cents
+* http://spotify.com/user/k5cents
+* http://xbox.com/gamertag=k5cents
+* http://snapchat.com/add/k5cents
+* http://www.linkedin.com/in/k5cents
+* http://reddit.com/user/k5cents
 
 ## Cryptocurrency
 * Coinbase Referal: 52e5566ad6fa6e8104000051
