@@ -7,7 +7,7 @@ Landing Page
 * Telegram: http://t.me/k5cents
 * Protonmail: k5cents@pm.me
 * Email: k5cents@gmail.com
-* GPG key: k5cents-key.asc
+* GPG key: /k5cents-key.asc
 
 ## Biography
 * Political Science @ American University
