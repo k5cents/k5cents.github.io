@@ -12,8 +12,8 @@ Landing Page
 ## Biography
 * Political Science @ American University
 * Intern @ United States Senate
-* Residence @ Washington, DC
-* Birthplace@ Morrisville, VT
+* Residence = Washington, DC
+* Birthplace = Morrisville, VT
 
 ## Profiles
 * http://twitter.com/k5cents
