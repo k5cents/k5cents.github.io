@@ -3,8 +3,8 @@ Landing Page
 
 ## Contact
 * Signal: +14436200155
-* Messenger: m.me/k5cents
-* Telegram: t.me/k5cents
+* Messenger: http://m.me/k5cents
+* Telegram: http://t.me/k5cents
 * Protonmail: k5cents@pm.me
 * Email: k5cents@gmail.com
 * GPG key: k5cents-key.asc
