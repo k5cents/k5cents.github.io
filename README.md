@@ -26,5 +26,5 @@ Landing Page
 * http://reddit.com/user/k5cents
 
 ## Cryptocurrency
-* Coinbase Referal: 52e5566ad6fa6e8104000051
-* Bitcoin: 3CziDBaPKDFQManLvGWrCrxBPVbKSbxgQi
+* Coinbase Referal: [52e5566ad6fa6e8104000051](https://www.coinbase.com/join/52e5566ad6fa6e8104000051)
+* Bitcoin: [3CziDBaPKDFQManLvGWrCrxBPVbKSbxgQi](bitcoin:3CziDBaPKDFQManLvGWrCrxBPVbKSbxgQi)
