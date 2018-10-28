@@ -3,11 +3,15 @@
 ## Contact
 
 kiernannicholls@gmail.com
+
 kiernannicholls.com
+
 802.793.0986
 
 5415 Connecticut AVE NW
+
 Washington DC, 20015
+
 United States
 
 ## Experience
