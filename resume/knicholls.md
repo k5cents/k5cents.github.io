@@ -4,15 +4,9 @@
 
 kiernannicholls@gmail.com
 
-kiernannicholls.com
-
 802.793.0986
 
-5415 Connecticut AVE NW
-
-Washington DC, 20015
-
-United States
+5415 Connecticut Ave NW, Washington, DC 20015
 
 ## Experience
 
