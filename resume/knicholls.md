@@ -10,32 +10,32 @@ kiernannicholls@gmail.com
 
 ## Experience
 
-* United States Senate
+United States Senate
   - Sen. Patrick Leahy (D-VT)
   - Intern
   - Fall 2018
 
-* Stowe Mountain Resort
+Stowe Mountain Resort
   - Golf Opperations
   - Summers 2015 — 2018
 
-* Stowe Mountain Resort
+Stowe Mountain Resort
   - Alpine Club Ski Valet
   - Winters 2015 — 2017
 
 
 ## Education
 
-* Master of Arts in Political Science
+Master of Arts in Political Science
   - The American University
   - Washington, DC
   - 2017 — 2019
 
-* Bachelor of Arts Political Science
+Bachelor of Arts Political Science
   - The American University
   - Washington, DC
   - 2015 — 2018
 
-* Peoples Academy
+Peoples Academy
   - Morrisville, VT
   - 2011 — 2015
