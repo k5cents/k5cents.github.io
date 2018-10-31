@@ -27,4 +27,4 @@ Kiernan Nicholls
 * Cold storage address: bitcoin:3DzmjgVaXeX14myPpFRDha2KC4wEw7UJtP
 * Coinbase referal: https://www.coinbase.com/join/52e5566ad6fa6e8104000051
 
-![bitcoin:3DzmjgVaXeX14myPpFRDha2KC4wEw7UJtP](https://raw.githubusercontent.com/k5cents/k5cents.github.io/master/btc_qr.svg?sanitize=true)
+![bitcoin:3DzmjgVaXeX14myPpFRDha2KC4wEw7UJtP](/home/images/cold-btc-qr.svg)
