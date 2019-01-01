@@ -1,315 +1,56 @@
-<html lang="en" dir="ltr" data-ink-version="5.2.4"><head>
-    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="application-name" content="Kiernan Nicholls">
-  <style>@keyframes quantumWizBoxInkSpread{0%{-webkit-transform:translate(-50%,-50%) scale(.2);transform:translate(-50%,-50%) scale(.2)}to{-webkit-transform:translate(-50%,-50%) scale(2.2);transform:translate(-50%,-50%) scale(2.2)}}@-webkit-keyframes quantumWizBoxInkSpread{0%{-webkit-transform:translate(-50%,-50%) scale(.2);transform:translate(-50%,-50%) scale(.2)}to{-webkit-transform:translate(-50%,-50%) scale(2.2);transform:translate(-50%,-50%) scale(2.2)}}@keyframes quantumWizIconFocusPulse{0%{-webkit-transform:translate(-50%,-50%) scale(1.5);transform:translate(-50%,-50%) scale(1.5);opacity:0}to{-webkit-transform:translate(-50%,-50%) scale(2);transform:translate(-50%,-50%) scale(2);opacity:1}}@-webkit-keyframes quantumWizIconFocusPulse{0%{-webkit-transform:translate(-50%,-50%) scale(1.5);transform:translate(-50%,-50%) scale(1.5);opacity:0}to{-webkit-transform:translate(-50%,-50%) scale(2);transform:translate(-50%,-50%) scale(2);opacity:1}}@keyframes quantumWizRadialInkSpread{0%{-webkit-transform:scale(1.5);transform:scale(1.5);opacity:0}to{-webkit-transform:scale(2.5);transform:scale(2.5);opacity:1}}@-webkit-keyframes quantumWizRadialInkSpread{0%{-webkit-transform:scale(1.5);transform:scale(1.5);opacity:0}to{-webkit-transform:scale(2.5);transform:scale(2.5);opacity:1}}@keyframes quantumWizRadialInkFocusPulse{0%{-webkit-transform:scale(2);transform:scale(2);opacity:0}to{-webkit-transform:scale(2.5);transform:scale(2.5);opacity:1}}@-webkit-keyframes quantumWizRadialInkFocusPulse{0%{-webkit-transform:scale(2);transform:scale(2);opacity:0}to{-webkit-transform:scale(2.5);transform:scale(2.5);opacity:1}}
-    .eejsDc{overflow-y:auto;-webkit-overflow-scrolling:touch}
-    .k5MVbc{height:52px;width:100%}
-    .Jvazdb{overflow-y:hidden;background:#eee;position:absolute;bottom:0;left:0;right:0;top:0}
-    .zP0lT{display:none}html{height:100%;overflow:hidden}body{height:100%;overflow:hidden;-webkit-font-smoothing:antialiased;color:#212121;font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;margin:0;-webkit-text-size-adjust:100%;text-size-adjust:100%}textarea{font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif}button{outline:none}a{text-decoration:none;color:#212121}img{border:none}*{-webkit-tap-highlight-color:transparent}#apps-debug-tracers{display:none}
-    .JZUAbb{position:absolute;display:block;left:0;right:0;top:0;bottom:0;width:100%;height:auto;margin:auto}
-    .Rgr1Jc{background-color:#424242;-webkit-border-radius:2px;border-radius:2px;-webkit-box-shadow:0 4px 10px 3px rgba(0,0,0,0.14);box-shadow:0 4px 10px 3px rgba(0,0,0,0.14);color:#fff;margin:0;outline:none;padding-bottom:24px;text-align:center}
-    .XGrszf{border-top-left-radius:2px;border-top-right-radius:2px;max-height:160px;overflow-y:hidden;position:relative}
-    .JvYz0{height:66px}
-    .NkN0Fc{border:2px solid #fff;-webkit-border-radius:50%;border-radius:50%;display:inline-block;height:128px;-webkit-transform:translateY(-50%);transform:translateY(-50%);width:128px}
-    .qsScTb{font:500 30px Roboto,RobotoDraft,Helvetica,Arial,sans-serif;font-weight:400;margin-top:16px;padding:0 16px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-    .XVzU0b{height:16px;width:16px}
-    .jmOUCb{background-color:#fff;-webkit-border-radius:2px;border-radius:2px;-webkit-box-shadow:0 4px 10px 3px rgba(0,0,0,0.14);box-shadow:0 4px 10px 3px rgba(0,0,0,0.14);margin:16px 0;padding:24px;position:relative;opacity:0;-webkit-transform:translateY(250px);transform:translateY(250px)}
-    .FPE87d{margin-top:24px}
-    .o30VSc{color:rgba(0,0,0,0.87);font:500 20px Roboto,RobotoDraft,Helvetica,Arial,sans-serif}
-    .uqKsgd{margin-top:16px}
-    .BgK4Ef{display:-webkit-box;display:-moz-box;display:-webkit-flex;display:-ms-flexbox;display:flex;font:400 16px Roboto,RobotoDraft,Helvetica,Arial,sans-serif;margin-top:16px}
-    .T0a1N{margin:auto 0 auto auto;opacity:0;padding-left:16px}
-    .Jo4rff{color:#757575;margin:auto 20px auto 0}
-    .Y5upsc{color:rgba(0,0,0,0.54);display:block;font:400 14px Roboto;margin-top:4px;text-overflow:ellipsis;overflow:hidden}
-    .qP4pPe{display:none;overflow:hidden;-webkit-transition:height .4s ease-out,visibility 0s ease .4s;transition:height .4s ease-out,visibility 0s ease .4s;visibility:hidden}@media (max-width:528px){
-    .BF12D{height:56px;margin:0 -16px -16px}}
-    .Mytuic{display:inline-block;height:24px;width:24px}
-    .J3yWx{fill:#009485}
-    .HqF2de{display:-webkit-box;display:-moz-box;display:-webkit-flex;display:-ms-flexbox;display:flex;width:100%;height:100%}
-    .fvhRlc{margin:0 auto;position:relative;width:528px;opacity:0}
-  </style>
+<html lang="en"><head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
       <title>Kiernan Nicholls</title>
-      <link rel="icon" href="/home/images/favicon.png">
+      <style>
+         body{
+         margin:0em auto;
+         max-width:50em;
+         padding:0.50em;
+         font:1.2em/1.62 monospace;
+         }
+         h1,h2,h3 {
+         line-height:1.2;
+         }
+         @media print{
+         body{
+         max-width:none
+         }
+         }
+      </style>
+      <link rel="icon" href="k5cents.com/home/images/favicon.png">
    </head>
-      <body>
-        <c-wiz jsrenderer="cLVvm" class="gLYlfd Jvazdb XUFn6e eejsDc nWGHWc" jslog="7331; 6:115031484444404544701; track:impression" data-rc="US" jsshadow="" jsdata=" oBpl3c;115031484444404544701;9 y3GrPb;115031484444404544701;3 VJa9i;115031484444404544701;16 tCHXjf;115031484444404544701;6 CMRvn;_;7" data-p="%.@.&quot;115031484444404544701&quot;]
-         " jscontroller="vGxNm" jsaction="rcuQ6b:npT2md;swayMe:wmgOkb;IBB03b:Zq1hcb;JZCswc:nEN5Yb;RudXue:.CLIENT" data-node-index="0;0" jsmodel="hc6Ubd" data-view-instance-id="/:id/about,/:id/about/,/profile/:id/about,/profile/:id/about/-V0" style="z-index: 1;">
-         <div class="kqngbc O1bNWe " jsname="a9kxte">
-            <div jsname="qJTHM" class="DAbEod" role="main">
-               <content>
-                  <c-wiz jsrenderer="xiSSwe" class="HqF2de eejsDc" data-oid="115031484444404544701" jslog="" role="dialog" jsshadow="" jsdata="" data-p="%.@.&quot;115031484444404544701&quot;,[1,2,11,5,9,12,10]
-                     ,1]
-                     " jscontroller="O6AHLd" jsaction="click:Iy8Ndc; keydown:wcIc4; touchstart:UrsOsc;swayMe:wmgOkb;psB4Wd:btvfAc;rcuQ6b:rcuQ6b;xRhIYd:zSFKlc;" data-node-index="2;0" jsmodel="hc6Ubd BNaL6d">
-                     <div class="fvhRlc" jsname="tGN4P" jslog="17764; track:impression" jsaction="click:Iy8Ndc; touchstart:UrsOsc;xRhIYd:zSFKlc;" style="opacity: 1;">
-                        <div class="Rgr1Jc" jsname="tJHJj" role="region" jslog="18794; track:impression">
-                           <div class="XGrszf" jsname="KPZkec">
-                              <div class="E68jgf" style="/*9RlwKJ/Jqp9n5EKEARPANX5d77w*/padding-top: 30.3%"><img class="JZUAbb" src="/home/images/banner.png" height="160" width="528" alt="">
-                              </div>
-                           </div>
-                           <div class="JvYz0"><img src="/home/images/avi.png" class="NkN0Fc" jsname="SRZeM"></div>
-                           <div class="qsScTb" jsname="wTPKKc">Kiernan Nicholls</div>
-                        </div>
-                        <div class="jmOUCb X1PIM" jsname="WsjYwc" role="region" aria-label="Contact" jslog="18795; track:impression" jscontroller="jVSpvc" jsaction="rcuQ6b:rcuQ6b;swayMe:mhSdVe;JIbuQc:KoToPc(b7Pkmc),YW3t2b(p3AEq),l7UOE(hs1vib)" style="transform: translateY(0px); opacity: 1;">
-                           <div role="heading" aria-level="1" class="o30VSc">Contact</div>
-                           <div class="FPE87d">
-                              <div class="uqKsgd" role="list" jsname="Vv5YZb">
-                                 
-                                 
-                              <div role="listitem" class="BgK4Ef ">
-                                    <div class="Jo4rff" aria-label="Messenger">
-                                       <div class="Mytuic J3yWx">
-                                          <svg width="100%" height="100%" viewBox="0 0 24 24">
-                                             <path d="M15,4V6H18V18H15V20H20V4M4,4V20H9V18H6V6H9V4H4Z"></path>
-                                          </svg>
-                                       </div>
-                                    </div>
-                                    <div class="mGa2db">
-                                       <a href="https://matrix.to/#/@kiernan:matrix.org" class="DOdATc">@kiernan:matrix.org</a>
-                                       <a href="https://matrix.to/#/@kiernan:matrix.org" class="Y5upsc" target="_blank">Matrix</a>
-                                    </div>
-                                 </div><div role="listitem" class="BgK4Ef ">
-                                    <div class="Jo4rff" aria-label="Messenger">
-                                       <div class="Mytuic J3yWx">
-                                          <svg width="100%" height="100%" viewBox="0 0 24 24">
-                                             <path d="M20,2H4A2,2 0 0,0 2,4V22L6,18H20A2,2 0 0,0 22,16V4A2,2 0 0,0 20,2M6,9H18V11H6M14,14H6V12H14M18,8H6V6H18"></path>
-                                          </svg>
-                                       </div>
-                                    </div>
-                                    <div class="mGa2db">
-                                       <a class="DOdATc">+14436200155</a>
-                                       <a href="https://signal.org" class="Y5upsc" target="_blank">Signal</a>
-                                    </div>
-                                 </div><div role="listitem" class="BgK4Ef ">
-                                    <div class="Jo4rff" aria-label="Messenger">
-                                       <div class="Mytuic J3yWx">
-                                          <svg width="100%" height="100%" viewBox="0 0 24 24">
-                                             <path d="M12,2C6.5,2 2,6.14 2,11.25C2,14.13 3.42,16.7 5.65,18.4L5.71,22L9.16,20.12L9.13,20.11C10.04,20.36 11,20.5 12,20.5C17.5,20.5 22,16.36 22,11.25C22,6.14 17.5,2 12,2M13.03,14.41L10.54,11.78L5.5,14.41L10.88,8.78L13.46,11.25L18.31,8.78L13.03,14.41Z"></path>
-                                          </svg>
-                                       </div>
-                                    </div>
-                                    <div class="mGa2db">
-                                       <a class="DOdATc" href="https://m.me/k5cents">m.me/k5cents</a>
-                                       <a href="https://m.me/k5cents" class="Y5upsc" target="_blank">Messenger</a>
-                                    </div>
-                                 </div>
-                              <div role="listitem" class="BgK4Ef ">
-                                    <div class="Jo4rff" aria-label="Messenger">
-                                       <div class="Mytuic J3yWx">
-                                          <svg width="100%" height="100%" viewBox="0 0 24 24">
-                                             <path d="M9.78,18.65L10.06,14.42L17.74,7.5C18.08,7.19 17.67,7.04 17.22,7.31L7.74,13.3L3.64,12C2.76,11.75 2.75,11.14 3.84,10.7L19.81,4.54C20.54,4.21 21.24,4.72 20.96,5.84L18.24,18.65C18.05,19.56 17.5,19.78 16.74,19.36L12.6,16.3L10.61,18.23C10.38,18.46 10.19,18.65 9.78,18.65Z"></path>
-                                          </svg>
-                                       </div>
-                                    </div>
-                                    <div class="mGa2db">
-                                       <a class="DOdATc" href="https://t.me/k5cents">t.me/k5cents</a>
-                                       <a href="https://t.me/k5cents" class="Y5upsc" target="_blank">Telegram</a>
-                                    </div>
-                                 </div><div role="listitem" class="BgK4Ef ">
-                                    <div class="Jo4rff" aria-label="Email">
-                                       <div class="Mytuic J3yWx">
-                                          <svg width="100%" height="100%" viewBox="0 0 24 24">
-                                             <path d="M12,17A2,2 0 0,0 14,15C14,13.89 13.1,13 12,13A2,2 0 0,0 10,15A2,2 0 0,0 12,17M18,8A2,2 0 0,1 20,10V20A2,2 0 0,1 18,22H6A2,2 0 0,1 4,20V10C4,8.89 4.9,8 6,8H7V6A5,5 0 0,1 12,1A5,5 0 0,1 17,6V8H18M12,3A3,3 0 0,0 9,6V8H15V6A3,3 0 0,0 12,3Z"></path>
-                                          </svg>
-                                       </div>
-                                    </div>
-                                    <div class="mGa2db">
-                                       <a class="DOdATc" href="mailto:k5cents@protonmail.com" target="_blank">k5cents@pm.me</a>
-                                       <a class="Y5upsc" href="mailto:k5cents@protonmail.com" target="_blank">Protonmail</a>
-                                    </div>
-                                    <div class="T0a1N"></div>
-                                 </div><div role="listitem" class="BgK4Ef ">
-                                    <div class="Jo4rff" aria-label="Email">
-                                       <div class="Mytuic J3yWx">
-                                          <svg width="100%" height="100%" viewBox="0 0 24 24">
-                                             <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"></path>
-                                          </svg>
-                                       </div>
-                                    </div>
-                                    <div class="mGa2db">
-                                       <a class="DOdATc" href="mailto:k5cents@gmail.com" target="_blank">k5cents@gmail.com</a>
-                                       <a class="Y5upsc" href="mailto:k5cents@gmail.com" target="_blank">Email</a>
-                                    </div>
-                                    <div class="T0a1N"></div>
-                                 </div><div role="listitem" class="BgK4Ef ">
-                              <div class="Jo4rff" aria-label="Email Secure">
-                                 <div class="Mytuic J3yWx">
-                                    <svg width="100%" height="100%" viewBox="0 0 24 24">
-                                       <path d="M7,14A2,2 0 0,1 5,12A2,2 0 0,1 7,10A2,2 0 0,1 9,12A2,2 0 0,1 7,14M12.65,10C11.83,7.67 9.61,6 7,6A6,6 0 0,0 1,12A6,6 0 0,0 7,18C9.61,18 11.83,16.33 12.65,14H17V18H21V14H23V10H12.65Z"></path>
-                                    </svg>
-                                 </div>
-                              </div>
-                              <div class="mGa2db"><a class="DOdATc" target="_blank" href="https://raw.githubusercontent.com/k5cents/k5cents.github.io/master/k5cents-key.asc">k5cents-key.asc</a><a href="https://raw.githubusercontent.com/k5cents/k5cents.github.io/master/k5cents-key.asc" class="Y5upsc">GPG key</a></div>
-                           </div></div>
-                           </div>
-                        </div>
-                        <div class="jmOUCb kS2wne" jsname="WsjYwc" role="region" aria-label="Places" jslog="18806; track:impression" jscontroller="jVSpvc" jsaction="rcuQ6b:rcuQ6b;swayMe:mhSdVe;JIbuQc:KoToPc(b7Pkmc),YW3t2b(p3AEq),l7UOE(hs1vib)" style="transform: translateY(0px); opacity: 1;">
-                           <div role="heading" aria-level="1" class="o30VSc">Biography</div>
-                           <div class="FPE87d">
-                              <div class="uqKsgd" role="list" jsname="Vv5YZb">
-                                 <div role="listitem" class="BgK4Ef ">
-                                    <div class="Jo4rff" aria-label="Snapchat">
-                                       <div class="Mytuic J3yWx">
-                                          <svg width="100%" height="100%" viewBox="0 0 24 24">
-                                             <path d="M12,3L1,9L12,15L21,10.09V17H23V9M5,13.18V17.18L12,21L19,17.18V13.18L12,17L5,13.18Z"></path>
-                                          </svg>
-                                       </div>
-                                    </div>
-                                    <div class="mGa2db"><a class="DOdATc" href="https://www.american.edu/" target="_blank">American University</a><a href="https://www.american.edu/spa/ma-pols/" class="Y5upsc">Political Science</a>
-                                    </div>
-                                 </div>
-                              <div role="listitem" class="BgK4Ef ">
-                                    <div class="Jo4rff" aria-label="Snapchat">
-                                       <div class="Mytuic J3yWx">
-                                          <svg width="100%" height="100%" viewBox="0 0 24 24">
-                                             <path d="M10,2H14A2,2 0 0,1 16,4V6H20A2,2 0 0,1 22,8V19A2,2 0 0,1 20,21H4C2.89,21 2,20.1 2,19V8C2,6.89 2.89,6 4,6H8V4C8,2.89 8.89,2 10,2M14,6V4H10V6H14Z"></path>
-                                          </svg>
-                                       </div>
-                                    </div>
-                                    <div class="mGa2db"><a class="DOdATc" href="https://www.american.edu/" target="_blank">United States Senate</a><a href="https://www.american.edu/spa/ma-pols/" class="Y5upsc">Intern</a>
-                                    </div>
-                                 </div><div role="listitem" class="BgK4Ef ">
-                                    <div class="Jo4rff" aria-label="Snapchat">
-                                       <div class="Mytuic J3yWx">
-                                          <svg width="100%" height="100%" viewBox="0 0 24 24">
-                                             <path d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z"></path>
-                                          </svg>
-                                       </div>
-                                    </div>
-                                    <div class="mGa2db"><a class="DOdATc" href="https://goo.gl/maps/DqkUS5xz7gM2" target="_blank">Washington, DC</a><a href="https://goo.gl/maps/DqkUS5xz7gM2" class="Y5upsc">Residence</a>
-                                    </div>
-                                 </div><div role="listitem" class="BgK4Ef ">
-                                    <div class="Jo4rff" aria-label="Baby">
-                                       <div class="Mytuic J3yWx">
-                                          <svg width="100%" height="100%" viewBox="0 0 24 24">
-                                             <path d="M18.5,4A2.5,2.5 0 0,1 21,6.5A2.5,2.5 0 0,1 18.5,9A2.5,2.5 0 0,1 16,6.5A2.5,2.5 0 0,1 18.5,4M4.5,20A1.5,1.5 0 0,1 3,18.5A1.5,1.5 0 0,1 4.5,17H11.5A1.5,1.5 0 0,1 13,18.5A1.5,1.5 0 0,1 11.5,20H4.5M16.09,19L14.69,15H11L6.75,10.75C6.75,10.75 9,8.25 12.5,8.25C15.5,8.25 15.85,9.25 16.06,9.87L18.92,18C19.2,18.78 18.78,19.64 18,19.92C17.22,20.19 16.36,19.78 16.09,19Z"></path>
-                                          </svg>
-                                       </div>
-                                    </div>
-                                    <div class="mGa2db"><a class="DOdATc" href="https://goo.gl/maps/X5mkX71Uuv12" target="_blank">Morrisville, VT</a><a href="https://goo.gl/maps/X5mkX71Uuv12" class="Y5upsc">Birthplace</a>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div><div class="jmOUCb xQxIpc sMVRZe" jsname="WsjYwc" role="region" aria-label="Links" jslog="18802; track:impression" jscontroller="jVSpvc" jsaction="rcuQ6b:rcuQ6b;swayMe:mhSdVe;JIbuQc:KoToPc(b7Pkmc),YW3t2b(p3AEq),l7UOE(hs1vib)" style="transform: translateY(0px); opacity: 1;">
-                           <div role="heading" aria-level="1" class="o30VSc">Profiles</div>
-                           <div class="FPE87d">
-                              <div class="uqKsgd" role="list" jsname="Vv5YZb">
-                                 
-                                 
-                                 
-                                 <div role="listitem" class="BgK4Ef ">
-                                    <div class="Jo4rff" aria-label="Reddit">
-                                       <div class="Mytuic J3yWx">
-                                          <svg width="100%" height="100%" viewBox="0 0 24 24">
-                                             <path d="M9,22A1,1 0 0,1 8,21V18H4A2,2 0 0,1 2,16V4C2,2.89 2.9,2 4,2H20A2,2 0 0,1 22,4V16A2,2 0 0,1 20,18H13.9L10.2,21.71C10,21.9 9.75,22 9.5,22V22H9Z"></path>
-                                          </svg>
-                                       </div>
-                                    </div>
-                                    <div class="mGa2db"><a class="DOdATc" href="https://twitter.com/k5cents" target="_blank">Twitter</a><a href="https://twitter.com/k5cents" class="Y5upsc" target="_blank">twitter.com/k5cents</a></div>
-                                 </div><div role="listitem" class="BgK4Ef ">
-                                    <div class="Jo4rff" aria-label="Reddit">
-                                       <div class="Mytuic J3yWx">
-                                          <svg width="100%" height="100%" viewBox="0 0 24 24">
-                                             <path d="M8,3A2,2 0 0,0 6,5V9A2,2 0 0,1 4,11H3V13H4A2,2 0 0,1 6,15V19A2,2 0 0,0 8,21H10V19H8V14A2,2 0 0,0 6,12A2,2 0 0,0 8,10V5H10V3M16,3A2,2 0 0,1 18,5V9A2,2 0 0,0 20,11H21V13H20A2,2 0 0,0 18,15V19A2,2 0 0,1 16,21H14V19H16V14A2,2 0 0,1 18,12A2,2 0 0,1 16,10V5H14V3H16Z"></path>
-                                          </svg>
-                                       </div>
-                                    </div>
-                                    <div class="mGa2db"><a class="DOdATc" href="https://github.com/k5cents/" target="_blank">Github</a><a href="https://github.com/k5cents/" class="Y5upsc" target="_blank">github.com/k5cents</a></div>
-                                 </div><div role="listitem" class="BgK4Ef ">
-                                    <div class="Jo4rff" aria-label="Reddit">
-                                       <div class="Mytuic J3yWx">
-                                          <svg width="100%" height="100%" viewBox="0 0 24 24">
-                                             <path d="M8.5,13.5L11,16.5L14.5,12L19,18H5M21,19V5C21,3.89 20.1,3 19,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19Z"></path>
-                                          </svg>
-                                       </div>
-                                    </div>
-                                    <div class="mGa2db"><a class="DOdATc" href="https://www.instagram.com/kj5cents/" target="_blank">Instagram</a><a href="https://www.instagram.com/kj5cents/" class="Y5upsc" target="_blank">instagram.com/k5cents</a></div>
-                                 </div><div role="listitem" class="BgK4Ef ">
-                                    <div class="Jo4rff" aria-label="Spotify">
-                                       <div class="Mytuic J3yWx">
-                                          <svg width="100%" height="100%" viewBox="0 0 24 24">
-                                             <path d="M16,9H13V14.5A2.5,2.5 0 0,1 10.5,17A2.5,2.5 0 0,1 8,14.5A2.5,2.5 0 0,1 10.5,12C11.07,12 11.58,12.19 12,12.5V7H16M19,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z"></path>
-                                          </svg>
-                                       </div>
-                                    </div>
-                                    <div class="mGa2db"><a class="DOdATc" href="https://play.spotify.com/user/1299022109" target="_blank">Spotify</a><a href="https://play.spotify.com/user/1299022109" target="_blank" class="Y5upsc">spotify.com/user/k5cents</a></div>
-                                 </div>
-                                 
-                                 <div role="listitem" class="BgK4Ef ">
-                                    <div class="Jo4rff" aria-label="Xbox">
-                                       <div class="Mytuic J3yWx">
-                                          <svg width="100%" height="100%" viewBox="0 0 24 24">
-                                             <path d="M16.5,9L13.5,12L16.5,15H22V9M9,16.5V22H15V16.5L12,13.5M7.5,9H2V15H7.5L10.5,12M15,7.5V2H9V7.5L12,10.5L15,7.5Z"></path>
-                                          </svg>
-                                       </div>
-                                    </div>
-                                    <div class="mGa2db"><a class="DOdATc" href="https://account.xbox.com/en-us/Profile?Gamertag=K5cents" target="_blank">Xbox</a><a href="https://account.xbox.com/en-us/Profile?Gamertag=K5cents" class="Y5upsc">xbox.com/gamertag=k5cents</a></div>
-                                 </div><div role="listitem" class="BgK4Ef ">
-                                    <div class="Jo4rff" aria-label="Reddit">
-                                       <div class="Mytuic J3yWx">
-                                          <svg width="100%" height="100%" viewBox="0 0 24 24">
-                                             <path d="M5,14L8.5,9.5L11,12.5L14.5,8L19,14M20,2H4A2,2 0 0,0 2,4V22L6,18H20A2,2 0 0,0 22,16V4C22,2.89 21.1,2 20,2Z"></path>
-                                          </svg>
-                                       </div>
-                                    </div>
-                                    <div class="mGa2db"><a class="DOdATc" href="https://www.snapchat.com/add/k5cents" target="_blank">Snapchat</a><a href="https://www.snapchat.com/add/k5cents" class="Y5upsc">snapchat.com/add/k5cents</a></div>
-                                 </div>
-                                 
-                              <div role="listitem" class="BgK4Ef ">
-                                    <div class="Jo4rff" aria-label="Xbox">
-                                       <div class="Mytuic J3yWx">
-                                          <svg width="100%" height="100%" viewBox="0 0 24 24">
-                                             <path d="M13.5,8H12V13L16.28,15.54L17,14.33L13.5,12.25V8M13,3A9,9 0 0,0 4,12H1L4.96,16.03L9,12H6A7,7 0 0,1 13,5A7,7 0 0,1 20,12A7,7 0 0,1 13,19C11.07,19 9.32,18.21 8.06,16.94L6.64,18.36C8.27,20 10.5,21 13,21A9,9 0 0,0 22,12A9,9 0 0,0 13,3"></path>
-                                          </svg>
-                                       </div>
-                                    </div>
-                                    <div class="mGa2db"><a class="DOdATc" href="https://www.linkedin.com/in/k5cents/" target="_blank">LinkedIn</a><a href="https://www.linkedin.com/in/k5cents/" class="Y5upsc">xbox.com/gamertag=k5cents</a></div>
-                                 </div><div role="listitem" class="BgK4Ef ">
-                                    <div class="Jo4rff" aria-label="Reddit">
-                                       <div class="Mytuic J3yWx">
-                                          <svg width="100%" height="100%" viewBox="0 0 24 24">
-                                             <path d="M17,12V3A1,1 0 0,0 16,2H3A1,1 0 0,0 2,3V17L6,13H16A1,1 0 0,0 17,12M21,6H19V15H6V17A1,1 0 0,0 7,18H18L22,22V7A1,1 0 0,0 21,6Z"></path>
-                                          </svg>
-                                       </div>
-                                    </div>
-                                    <div class="mGa2db"><a class="DOdATc" href="https://reddit.com/user/k5cents" target="_blank">Reddit</a><a href="https://reddit.com/user/k5cents" class="Y5upsc" target="_blank">reddit.com/user/k5cents</a></div>
-                                 </div></div>
-                           </div>
-                        </div>
-                        
-                        <div class="jmOUCb X1PIM" jsname="WsjYwc" role="region" aria-label="Contact" jslog="18795; track:impression" jscontroller="jVSpvc" jsaction="rcuQ6b:rcuQ6b;swayMe:mhSdVe;JIbuQc:KoToPc(b7Pkmc),YW3t2b(p3AEq),l7UOE(hs1vib)" style="transform: translateY(0px); opacity: 1;">
-                           <div role="heading" aria-level="1" class="o30VSc">Cryptocurrency</div><div role="listitem" class="BgK4Ef ">
-                              <div class="Jo4rff" aria-label="Lock">
-                                 <div class="Mytuic J3yWx">
-                                    <svg width="100%" height="100%" viewBox="0 0 24 24">
-                                       <path d="M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4M11,17V16H9V14H13V13H10A1,1 0 0,1 9,12V9A1,1 0 0,1 10,8H11V7H13V8H15V10H11V11H14A1,1 0 0,1 15,12V15A1,1 0 0,1 14,16H13V17H11Z"></path>
-                                    </svg>
-                                 </div>
-                              </div>
-                              <div class="mGa2db"><a class="DOdATc" target="_blank">Coinbase Referal</a><a href="https://www.coinbase.com/join/52e5566ad6fa6e8104000051" class="Y5upsc">52e5566ad6fa6e8104000051</a></div>
-                           </div><div role="listitem" class="BgK4Ef ">
-                              <div class="Jo4rff" aria-label="Lock">
-                                 <div class="Mytuic J3yWx">
-                                    <svg width="100%" height="100%" viewBox="0 0 24 24">
-                                       <path d="M21,18V19A2,2 0 0,1 19,21H5C3.89,21 3,20.1 3,19V5A2,2 0 0,1 5,3H19A2,2 0 0,1 21,5V6H12C10.89,6 10,6.9 10,8V16A2,2 0 0,0 12,18M12,16H22V8H12M16,13.5A1.5,1.5 0 0,1 14.5,12A1.5,1.5 0 0,1 16,10.5A1.5,1.5 0 0,1 17.5,12A1.5,1.5 0 0,1 16,13.5Z"></path>
-                                    </svg>
-                                 </div>
-                              </div>
-                              <div class="mGa2db"><a class="DOdATc" target="_blank">Bitcoin</a><a href="bitcoin:3CziDBaPKDFQManLvGWrCrxBPVbKSbxgQi" class="Y5upsc">3CziDBaPKDFQManLvGWrCrxBPVbKSbxgQi</a></div>
-                           </div>
-                           <div class="FPE87d">
-                              <center>
-                                <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPCFET0NUWVBFIHN2ZyBQVUJM%0D%0ASUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3Mv%0D%0AU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAw%0D%0AMC9zdmciIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDM3IDM3IiBzdHJva2U9Im5vbmUiPgoJ%0D%0APHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0iI0ZGRkZGRiIvPgoJPHBhdGgg%0D%0AZD0iTTQsNGgxdjFoLTF6IE01LDRoMXYxaC0xeiBNNiw0aDF2MWgtMXogTTcsNGgxdjFoLTF6IE04%0D%0ALDRoMXYxaC0xeiBNOSw0aDF2MWgtMXogTTEwLDRoMXYxaC0xeiBNMTIsNGgxdjFoLTF6IE0xNyw0%0D%0AaDF2MWgtMXogTTE5LDRoMXYxaC0xeiBNMjIsNGgxdjFoLTF6IE0yNiw0aDF2MWgtMXogTTI3LDRo%0D%0AMXYxaC0xeiBNMjgsNGgxdjFoLTF6IE0yOSw0aDF2MWgtMXogTTMwLDRoMXYxaC0xeiBNMzEsNGgx%0D%0AdjFoLTF6IE0zMiw0aDF2MWgtMXogTTQsNWgxdjFoLTF6IE0xMCw1aDF2MWgtMXogTTEyLDVoMXYx%0D%0AaC0xeiBNMTQsNWgxdjFoLTF6IE0xNSw1aDF2MWgtMXogTTE2LDVoMXYxaC0xeiBNMTgsNWgxdjFo%0D%0ALTF6IE0yMCw1aDF2MWgtMXogTTIxLDVoMXYxaC0xeiBNMjMsNWgxdjFoLTF6IE0yNiw1aDF2MWgt%0D%0AMXogTTMyLDVoMXYxaC0xeiBNNCw2aDF2MWgtMXogTTYsNmgxdjFoLTF6IE03LDZoMXYxaC0xeiBN%0D%0AOCw2aDF2MWgtMXogTTEwLDZoMXYxaC0xeiBNMTIsNmgxdjFoLTF6IE0xNSw2aDF2MWgtMXogTTE3%0D%0ALDZoMXYxaC0xeiBNMTgsNmgxdjFoLTF6IE0yMCw2aDF2MWgtMXogTTIyLDZoMXYxaC0xeiBNMjMs%0D%0ANmgxdjFoLTF6IE0yNiw2aDF2MWgtMXogTTI4LDZoMXYxaC0xeiBNMjksNmgxdjFoLTF6IE0zMCw2%0D%0AaDF2MWgtMXogTTMyLDZoMXYxaC0xeiBNNCw3aDF2MWgtMXogTTYsN2gxdjFoLTF6IE03LDdoMXYx%0D%0AaC0xeiBNOCw3aDF2MWgtMXogTTEwLDdoMXYxaC0xeiBNMTUsN2gxdjFoLTF6IE0xNiw3aDF2MWgt%0D%0AMXogTTE3LDdoMXYxaC0xeiBNMTksN2gxdjFoLTF6IE0yMCw3aDF2MWgtMXogTTI0LDdoMXYxaC0x%0D%0AeiBNMjYsN2gxdjFoLTF6IE0yOCw3aDF2MWgtMXogTTI5LDdoMXYxaC0xeiBNMzAsN2gxdjFoLTF6%0D%0AIE0zMiw3aDF2MWgtMXogTTQsOGgxdjFoLTF6IE02LDhoMXYxaC0xeiBNNyw4aDF2MWgtMXogTTgs%0D%0AOGgxdjFoLTF6IE0xMCw4aDF2MWgtMXogTTEyLDhoMXYxaC0xeiBNMTMsOGgxdjFoLTF6IE0xNCw4%0D%0AaDF2MWgtMXogTTE2LDhoMXYxaC0xeiBNMTgsOGgxdjFoLTF6IE0xOSw4aDF2MWgtMXogTTIwLDho%0D%0AMXYxaC0xeiBNMjIsOGgxdjFoLTF6IE0yMyw4aDF2MWgtMXogTTI2LDhoMXYxaC0xeiBNMjgsOGgx%0D%0AdjFoLTF6IE0yOSw4aDF2MWgtMXogTTMwLDhoMXYxaC0xeiBNMzIsOGgxdjFoLTF6IE00LDloMXYx%0D%0AaC0xeiBNMTAsOWgxdjFoLTF6IE0xNiw5aDF2MWgtMXogTTE3LDloMXYxaC0xeiBNMjAsOWgxdjFo%0D%0ALTF6IE0yMSw5aDF2MWgtMXogTTI0LDloMXYxaC0xeiBNMjYsOWgxdjFoLTF6IE0zMiw5aDF2MWgt%0D%0AMXogTTQsMTBoMXYxaC0xeiBNNSwxMGgxdjFoLTF6IE02LDEwaDF2MWgtMXogTTcsMTBoMXYxaC0x%0D%0AeiBNOCwxMGgxdjFoLTF6IE05LDEwaDF2MWgtMXogTTEwLDEwaDF2MWgtMXogTTEyLDEwaDF2MWgt%0D%0AMXogTTE0LDEwaDF2MWgtMXogTTE2LDEwaDF2MWgtMXogTTE4LDEwaDF2MWgtMXogTTIwLDEwaDF2%0D%0AMWgtMXogTTIyLDEwaDF2MWgtMXogTTI0LDEwaDF2MWgtMXogTTI2LDEwaDF2MWgtMXogTTI3LDEw%0D%0AaDF2MWgtMXogTTI4LDEwaDF2MWgtMXogTTI5LDEwaDF2MWgtMXogTTMwLDEwaDF2MWgtMXogTTMx%0D%0ALDEwaDF2MWgtMXogTTMyLDEwaDF2MWgtMXogTTEzLDExaDF2MWgtMXogTTE0LDExaDF2MWgtMXog%0D%0ATTE1LDExaDF2MWgtMXogTTE3LDExaDF2MWgtMXogTTE4LDExaDF2MWgtMXogTTE5LDExaDF2MWgt%0D%0AMXogTTIyLDExaDF2MWgtMXogTTIzLDExaDF2MWgtMXogTTQsMTJoMXYxaC0xeiBNNywxMmgxdjFo%0D%0ALTF6IE04LDEyaDF2MWgtMXogTTksMTJoMXYxaC0xeiBNMTAsMTJoMXYxaC0xeiBNMTEsMTJoMXYx%0D%0AaC0xeiBNMTIsMTJoMXYxaC0xeiBNMTMsMTJoMXYxaC0xeiBNMTQsMTJoMXYxaC0xeiBNMTYsMTJo%0D%0AMXYxaC0xeiBNMTgsMTJoMXYxaC0xeiBNMTksMTJoMXYxaC0xeiBNMjAsMTJoMXYxaC0xeiBNMjEs%0D%0AMTJoMXYxaC0xeiBNMjUsMTJoMXYxaC0xeiBNMjgsMTJoMXYxaC0xeiBNMzAsMTJoMXYxaC0xeiBN%0D%0AMzEsMTJoMXYxaC0xeiBNMzIsMTJoMXYxaC0xeiBNNCwxM2gxdjFoLTF6IE03LDEzaDF2MWgtMXog%0D%0ATTksMTNoMXYxaC0xeiBNMTEsMTNoMXYxaC0xeiBNMTMsMTNoMXYxaC0xeiBNMTYsMTNoMXYxaC0x%0D%0AeiBNMTcsMTNoMXYxaC0xeiBNMTksMTNoMXYxaC0xeiBNMjYsMTNoMXYxaC0xeiBNMjcsMTNoMXYx%0D%0AaC0xeiBNMjgsMTNoMXYxaC0xeiBNMzAsMTNoMXYxaC0xeiBNNCwxNGgxdjFoLTF6IE04LDE0aDF2%0D%0AMWgtMXogTTksMTRoMXYxaC0xeiBNMTAsMTRoMXYxaC0xeiBNMTEsMTRoMXYxaC0xeiBNMTIsMTRo%0D%0AMXYxaC0xeiBNMTMsMTRoMXYxaC0xeiBNMTYsMTRoMXYxaC0xeiBNMTgsMTRoMXYxaC0xeiBNMTks%0D%0AMTRoMXYxaC0xeiBNMjgsMTRoMXYxaC0xeiBNMjksMTRoMXYxaC0xeiBNNCwxNWgxdjFoLTF6IE01%0D%0ALDE1aDF2MWgtMXogTTYsMTVoMXYxaC0xeiBNNywxNWgxdjFoLTF6IE05LDE1aDF2MWgtMXogTTE5%0D%0ALDE1aDF2MWgtMXogTTIxLDE1aDF2MWgtMXogTTIyLDE1aDF2MWgtMXogTTI2LDE1aDF2MWgtMXog%0D%0ATTI3LDE1aDF2MWgtMXogTTI5LDE1aDF2MWgtMXogTTMyLDE1aDF2MWgtMXogTTUsMTZoMXYxaC0x%0D%0AeiBNNiwxNmgxdjFoLTF6IE04LDE2aDF2MWgtMXogTTEwLDE2aDF2MWgtMXogTTE0LDE2aDF2MWgt%0D%0AMXogTTE2LDE2aDF2MWgtMXogTTE5LDE2aDF2MWgtMXogTTIxLDE2aDF2MWgtMXogTTIzLDE2aDF2%0D%0AMWgtMXogTTI2LDE2aDF2MWgtMXogTTI3LDE2aDF2MWgtMXogTTI5LDE2aDF2MWgtMXogTTMyLDE2%0D%0AaDF2MWgtMXogTTQsMTdoMXYxaC0xeiBNNSwxN2gxdjFoLTF6IE03LDE3aDF2MWgtMXogTTgsMTdo%0D%0AMXYxaC0xeiBNMTIsMTdoMXYxaC0xeiBNMTMsMTdoMXYxaC0xeiBNMTQsMTdoMXYxaC0xeiBNMTUs%0D%0AMTdoMXYxaC0xeiBNMTcsMTdoMXYxaC0xeiBNMTgsMTdoMXYxaC0xeiBNMjAsMTdoMXYxaC0xeiBN%0D%0AMjIsMTdoMXYxaC0xeiBNMjMsMTdoMXYxaC0xeiBNMjcsMTdoMXYxaC0xeiBNMjgsMTdoMXYxaC0x%0D%0AeiBNMzEsMTdoMXYxaC0xeiBNMzIsMTdoMXYxaC0xeiBNNywxOGgxdjFoLTF6IE04LDE4aDF2MWgt%0D%0AMXogTTEwLDE4aDF2MWgtMXogTTEzLDE4aDF2MWgtMXogTTE1LDE4aDF2MWgtMXogTTE2LDE4aDF2%0D%0AMWgtMXogTTE4LDE4aDF2MWgtMXogTTE5LDE4aDF2MWgtMXogTTIwLDE4aDF2MWgtMXogTTIxLDE4%0D%0AaDF2MWgtMXogTTIzLDE4aDF2MWgtMXogTTI1LDE4aDF2MWgtMXogTTI2LDE4aDF2MWgtMXogTTMw%0D%0ALDE4aDF2MWgtMXogTTMyLDE4aDF2MWgtMXogTTUsMTloMXYxaC0xeiBNOCwxOWgxdjFoLTF6IE05%0D%0ALDE5aDF2MWgtMXogTTExLDE5aDF2MWgtMXogTTEyLDE5aDF2MWgtMXogTTIwLDE5aDF2MWgtMXog%0D%0ATTIzLDE5aDF2MWgtMXogTTI5LDE5aDF2MWgtMXogTTMwLDE5aDF2MWgtMXogTTMxLDE5aDF2MWgt%0D%0AMXogTTMyLDE5aDF2MWgtMXogTTQsMjBoMXYxaC0xeiBNNiwyMGgxdjFoLTF6IE04LDIwaDF2MWgt%0D%0AMXogTTEwLDIwaDF2MWgtMXogTTExLDIwaDF2MWgtMXogTTEzLDIwaDF2MWgtMXogTTE1LDIwaDF2%0D%0AMWgtMXogTTE5LDIwaDF2MWgtMXogTTIwLDIwaDF2MWgtMXogTTIxLDIwaDF2MWgtMXogTTI0LDIw%0D%0AaDF2MWgtMXogTTMxLDIwaDF2MWgtMXogTTMyLDIwaDF2MWgtMXogTTQsMjFoMXYxaC0xeiBNNiwy%0D%0AMWgxdjFoLTF6IE04LDIxaDF2MWgtMXogTTksMjFoMXYxaC0xeiBNMTEsMjFoMXYxaC0xeiBNMTIs%0D%0AMjFoMXYxaC0xeiBNMTMsMjFoMXYxaC0xeiBNMTYsMjFoMXYxaC0xeiBNMTgsMjFoMXYxaC0xeiBN%0D%0AMjEsMjFoMXYxaC0xeiBNMjQsMjFoMXYxaC0xeiBNMjgsMjFoMXYxaC0xeiBNMzAsMjFoMXYxaC0x%0D%0AeiBNNCwyMmgxdjFoLTF6IE01LDIyaDF2MWgtMXogTTcsMjJoMXYxaC0xeiBNOCwyMmgxdjFoLTF6%0D%0AIE05LDIyaDF2MWgtMXogTTEwLDIyaDF2MWgtMXogTTEyLDIyaDF2MWgtMXogTTE0LDIyaDF2MWgt%0D%0AMXogTTE1LDIyaDF2MWgtMXogTTE3LDIyaDF2MWgtMXogTTE4LDIyaDF2MWgtMXogTTE5LDIyaDF2%0D%0AMWgtMXogTTIwLDIyaDF2MWgtMXogTTIzLDIyaDF2MWgtMXogTTI0LDIyaDF2MWgtMXogTTI1LDIy%0D%0AaDF2MWgtMXogTTI2LDIyaDF2MWgtMXogTTMwLDIyaDF2MWgtMXogTTMyLDIyaDF2MWgtMXogTTQs%0D%0AMjNoMXYxaC0xeiBNNSwyM2gxdjFoLTF6IE02LDIzaDF2MWgtMXogTTgsMjNoMXYxaC0xeiBNMTEs%0D%0AMjNoMXYxaC0xeiBNMTUsMjNoMXYxaC0xeiBNMTcsMjNoMXYxaC0xeiBNMTksMjNoMXYxaC0xeiBN%0D%0AMjMsMjNoMXYxaC0xeiBNMjUsMjNoMXYxaC0xeiBNMjgsMjNoMXYxaC0xeiBNMzAsMjNoMXYxaC0x%0D%0AeiBNMzIsMjNoMXYxaC0xeiBNNCwyNGgxdjFoLTF6IE01LDI0aDF2MWgtMXogTTcsMjRoMXYxaC0x%0D%0AeiBNMTAsMjRoMXYxaC0xeiBNMTEsMjRoMXYxaC0xeiBNMTUsMjRoMXYxaC0xeiBNMTYsMjRoMXYx%0D%0AaC0xeiBNMTgsMjRoMXYxaC0xeiBNMTksMjRoMXYxaC0xeiBNMjAsMjRoMXYxaC0xeiBNMjEsMjRo%0D%0AMXYxaC0xeiBNMjMsMjRoMXYxaC0xeiBNMjQsMjRoMXYxaC0xeiBNMjUsMjRoMXYxaC0xeiBNMjYs%0D%0AMjRoMXYxaC0xeiBNMjcsMjRoMXYxaC0xeiBNMjgsMjRoMXYxaC0xeiBNMjksMjRoMXYxaC0xeiBN%0D%0AMzAsMjRoMXYxaC0xeiBNMzEsMjRoMXYxaC0xeiBNMzIsMjRoMXYxaC0xeiBNMTIsMjVoMXYxaC0x%0D%0AeiBNMTQsMjVoMXYxaC0xeiBNMTYsMjVoMXYxaC0xeiBNMTcsMjVoMXYxaC0xeiBNMTgsMjVoMXYx%0D%0AaC0xeiBNMjQsMjVoMXYxaC0xeiBNMjgsMjVoMXYxaC0xeiBNMjksMjVoMXYxaC0xeiBNNCwyNmgx%0D%0AdjFoLTF6IE01LDI2aDF2MWgtMXogTTYsMjZoMXYxaC0xeiBNNywyNmgxdjFoLTF6IE04LDI2aDF2%0D%0AMWgtMXogTTksMjZoMXYxaC0xeiBNMTAsMjZoMXYxaC0xeiBNMTIsMjZoMXYxaC0xeiBNMTQsMjZo%0D%0AMXYxaC0xeiBNMTYsMjZoMXYxaC0xeiBNMTgsMjZoMXYxaC0xeiBNMTksMjZoMXYxaC0xeiBNMjIs%0D%0AMjZoMXYxaC0xeiBNMjQsMjZoMXYxaC0xeiBNMjYsMjZoMXYxaC0xeiBNMjgsMjZoMXYxaC0xeiBN%0D%0ANCwyN2gxdjFoLTF6IE0xMCwyN2gxdjFoLTF6IE0xMiwyN2gxdjFoLTF6IE0xMywyN2gxdjFoLTF6%0D%0AIE0xNCwyN2gxdjFoLTF6IE0xNSwyN2gxdjFoLTF6IE0xOCwyN2gxdjFoLTF6IE0yMCwyN2gxdjFo%0D%0ALTF6IE0yMSwyN2gxdjFoLTF6IE0yMiwyN2gxdjFoLTF6IE0yMywyN2gxdjFoLTF6IE0yNCwyN2gx%0D%0AdjFoLTF6IE0yOCwyN2gxdjFoLTF6IE00LDI4aDF2MWgtMXogTTYsMjhoMXYxaC0xeiBNNywyOGgx%0D%0AdjFoLTF6IE04LDI4aDF2MWgtMXogTTEwLDI4aDF2MWgtMXogTTEyLDI4aDF2MWgtMXogTTE0LDI4%0D%0AaDF2MWgtMXogTTE1LDI4aDF2MWgtMXogTTE3LDI4aDF2MWgtMXogTTE4LDI4aDF2MWgtMXogTTIx%0D%0ALDI4aDF2MWgtMXogTTIzLDI4aDF2MWgtMXogTTI0LDI4aDF2MWgtMXogTTI1LDI4aDF2MWgtMXog%0D%0ATTI2LDI4aDF2MWgtMXogTTI3LDI4aDF2MWgtMXogTTI4LDI4aDF2MWgtMXogTTMxLDI4aDF2MWgt%0D%0AMXogTTQsMjloMXYxaC0xeiBNNiwyOWgxdjFoLTF6IE03LDI5aDF2MWgtMXogTTgsMjloMXYxaC0x%0D%0AeiBNMTAsMjloMXYxaC0xeiBNMTIsMjloMXYxaC0xeiBNMTMsMjloMXYxaC0xeiBNMTQsMjloMXYx%0D%0AaC0xeiBNMTUsMjloMXYxaC0xeiBNMTcsMjloMXYxaC0xeiBNMTgsMjloMXYxaC0xeiBNMTksMjlo%0D%0AMXYxaC0xeiBNMjAsMjloMXYxaC0xeiBNMjIsMjloMXYxaC0xeiBNMjUsMjloMXYxaC0xeiBNMjgs%0D%0AMjloMXYxaC0xeiBNMjksMjloMXYxaC0xeiBNMzIsMjloMXYxaC0xeiBNNCwzMGgxdjFoLTF6IE02%0D%0ALDMwaDF2MWgtMXogTTcsMzBoMXYxaC0xeiBNOCwzMGgxdjFoLTF6IE0xMCwzMGgxdjFoLTF6IE0x%0D%0ANCwzMGgxdjFoLTF6IE0xNiwzMGgxdjFoLTF6IE0xOCwzMGgxdjFoLTF6IE0xOSwzMGgxdjFoLTF6%0D%0AIE0yMCwzMGgxdjFoLTF6IE0yMSwzMGgxdjFoLTF6IE0yMiwzMGgxdjFoLTF6IE0yMywzMGgxdjFo%0D%0ALTF6IE0yNCwzMGgxdjFoLTF6IE0yNiwzMGgxdjFoLTF6IE0yNywzMGgxdjFoLTF6IE0yOCwzMGgx%0D%0AdjFoLTF6IE0yOSwzMGgxdjFoLTF6IE0zMCwzMGgxdjFoLTF6IE0zMSwzMGgxdjFoLTF6IE0zMiwz%0D%0AMGgxdjFoLTF6IE00LDMxaDF2MWgtMXogTTEwLDMxaDF2MWgtMXogTTEzLDMxaDF2MWgtMXogTTE0%0D%0ALDMxaDF2MWgtMXogTTE1LDMxaDF2MWgtMXogTTE3LDMxaDF2MWgtMXogTTE5LDMxaDF2MWgtMXog%0D%0ATTIwLDMxaDF2MWgtMXogTTI0LDMxaDF2MWgtMXogTTI2LDMxaDF2MWgtMXogTTI3LDMxaDF2MWgt%0D%0AMXogTTMwLDMxaDF2MWgtMXogTTMyLDMxaDF2MWgtMXogTTQsMzJoMXYxaC0xeiBNNSwzMmgxdjFo%0D%0ALTF6IE02LDMyaDF2MWgtMXogTTcsMzJoMXYxaC0xeiBNOCwzMmgxdjFoLTF6IE05LDMyaDF2MWgt%0D%0AMXogTTEwLDMyaDF2MWgtMXogTTEyLDMyaDF2MWgtMXogTTEzLDMyaDF2MWgtMXogTTE1LDMyaDF2%0D%0AMWgtMXogTTE3LDMyaDF2MWgtMXogTTE5LDMyaDF2MWgtMXogTTIwLDMyaDF2MWgtMXogTTIzLDMy%0D%0AaDF2MWgtMXogTTI0LDMyaDF2MWgtMXogTTI1LDMyaDF2MWgtMXogTTI3LDMyaDF2MWgtMXogTTI4%0D%0ALDMyaDF2MWgtMXogTTI5LDMyaDF2MWgtMXoiIGZpbGw9IiMwMDAwMDAiLz4KPC9zdmc+Cg==" width="50%">
-                                </center>
-                           </div>
-                        </div>
-                     </div>
-                  </c-wiz>
-               </content>
-            </div>
-         </div>
-      </c-wiz>
+   <body>
+      <article>
+         <header>
+            <h1>Kiernan Nicholls</h1>
+            
+            
+         </header>
+         <h2>Contact</h2>
+         <ul>
+            <li>@kiernan:matrix.org</li>
+            <li>+14436200155</li>
+            <li><a href="https://m.me/k5cents">m.me/k5cents</a></li>
+            <li><a href="https://t.me/k5cents">t.me/k5cents</a></li>
+            <li><a href="mailto:k5cents@pm.me">k5cents@pm.me</a></li>
+            <li><a href="mailto:k5cents@gmail.com">k5cents@gmail.com</a></li>
+            <li><a href="https://k5cents.com/home/k5cents-key.asc">k5cents-key.asc</a></li>
 
+ 
+         </ul>
+         <h2>Profiles</h2>
+         <ul>
+            <li><a href="https://twitter.com/k5cents">twitter.com/k5cents</a></li>
+            <li><a href="https://github.com/k5cents/">github.com/k5cents</a></li>
+            <li><a href="https://www.instagram.com/kj5cents/">instagram.com/k5cents</a></li>
+            <li><a href="https://play.spotify.com/user/1299022109">spotify.com/user/k5cents</a></li>
+            <li><a href="https://account.xbox.com/en-us/Profile?Gamertag=K5cents">xbox.com/gamertag=k5cents</a></li>
+            <li><a href="https://www.snapchat.com/add/k5cents">snapchat.com/add/k5cents</a></li>
+            <li><a href="https://www.linkedin.com/in/k5cents/">linkedin.com/in/k5cents</a></li>
+            <li><a href="https://reddit.com/user/k5cents">reddit.com/user/k5cents</a></li>
+         </ul>
+      </article>
+   
 
 </body></html>
