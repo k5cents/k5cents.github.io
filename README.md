@@ -1,5 +1,4 @@
 # k5cents.github.io
-Landing Page
 
 ## Contact
 * Signal: +14436200155
