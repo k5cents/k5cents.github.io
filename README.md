@@ -1,5 +1,3 @@
-# k5cents.github.io
-
 ## Contact
 * Signal: +14436200155
 * Messenger: http://m.me/k5cents
